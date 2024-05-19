@@ -36,9 +36,9 @@ export default function EmailSignUp() {
 		hasMinLength: false,
 	});
 
-	useEffect(()=> {
+	useEffect(() => {
 		trigger();
-	},[]);
+	}, []);
 
 	useEffect(() => {
 		const requirements = {
@@ -207,14 +207,12 @@ export default function EmailSignUp() {
 				)}
 
 				<div className="AppAgreement text-[18px] flex items-center my-[15px]">
-					<div className='flex items-center justify-center'>
-						<input
-							className={`appearance-none mr-[15px] w-[30px] h-[30px] rounded-md ${errors.applicationAgreement ? 'bg-[#B5C4CC]' : 'bg-[#0A3C55]'}`}
-							type="checkbox"
-							id="applicationAgreement"
-							{...register('applicationAgreement', { required: 'You must agree to the application agreement' })}
-						/>
-					</div>
+					<input
+						className={`flex-shrink-0 appearance-none mr-[15px] w-[30px] h-[30px] clip-rounded ${errors.applicationAgreement ? 'bg-[#B5C4CC]' : 'appearance-auto accent-[#0A3C55]'}`}
+						type="checkbox"
+						id="applicationAgreement"
+						{...register('applicationAgreement', { required: 'You must agree to the application agreement' })}
+					/>
 					<label htmlFor="applicationAgreement">
 						I understand and agree to the use of{' '}
 						<a href="#" onClick={(e) => e.preventDefault()} className="font-semibold underline">
@@ -225,14 +223,12 @@ export default function EmailSignUp() {
 				</div>
 
 				<div className="PrivacyPolicy text-[18px] flex items-center my-[15px]">
-					<div className={`flex items-center justify-center'} `}>
-						<input
-							className={`appearance-none mr-[15px] w-[30px] h-[30px] rounded-lg ${errors.privacyPolicy ? 'bg-[#B5C4CC]' : 'bg-[#0A3C55]'}`}
-							type="checkbox"
-							id="privacyPolicy"
-							{...register('privacyPolicy', { required: 'You must agree to the privacy policy' })}
-						/>
-					</div>
+					<input
+						className={`flex-shrink-0 appearance-none mr-[15px] w-[30px] h-[30px] clip-rounded ${errors.privacyPolicy ? 'bg-[#B5C4CC]' : 'appearance-auto accent-[#0A3C55]'}`}
+						type="checkbox"
+						id="privacyPolicy"
+						{...register('privacyPolicy', { required: 'You must agree to the privacy policy' })}
+					/>
 					<label htmlFor="privacyPolicy">
 						I understand and agree the information submitted will be used in line with our{' '}
 						<a href="#" onClick={(e) => e.preventDefault()} className="font-semibold underline">

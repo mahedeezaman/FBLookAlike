@@ -116,3 +116,7 @@
 html {
   font-family: 'Poppins', sans-serif;
 }
+
+.clip-rounded {
+  clip-path: circle(60% at 50% 50%);
+}
