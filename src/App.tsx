@@ -1,5 +1,5 @@
-import companyLogo from '../CompanyLogo.svg';
-import poweredByLogo from '../PoweredByIcon.svg';
+import companyLogo from '../ImageAssets/CompanyLogo.svg';
+import poweredByLogo from '../ImageAssets/PoweredByIcon.svg';
 import fbLogo from '../ImageAssets/fbLogo.svg';
 import instaLogo from '../ImageAssets/InstagramIcon.svg';
 import linkedinLogo from '../ImageAssets/LinkedInIcon.svg';
