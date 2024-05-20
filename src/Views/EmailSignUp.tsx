@@ -217,7 +217,7 @@ export default function EmailSignUp() {
 						I understand and agree to the use of{' '}
 						<a href="#" onClick={(e) => e.preventDefault()} className="font-semibold underline">
 							application agreement
-							<img src="../ImageAssets/ExternalLinkIcon.svg" alt="icon" className=" inline-block ml-[5px]" />
+							<img src="/ExternalLinkIcon.svg" alt="icon" className=" inline-block ml-[5px]" />
 						</a>
 					</label>
 				</div>
@@ -233,7 +233,7 @@ export default function EmailSignUp() {
 						I understand and agree the information submitted will be used in line with our{' '}
 						<a href="#" onClick={(e) => e.preventDefault()} className="font-semibold underline">
 							Privacy Policy
-							<img src="../ImageAssets/ExternalLinkIcon.svg" alt="icon" className=" inline-block ml-[5px]" />
+							<img src="/ExternalLinkIcon.svg" alt="icon" className=" inline-block ml-[5px]" />
 						</a>
 					</label>
 				</div>

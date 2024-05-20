@@ -1,11 +1,8 @@
-import companyLogo from '../ImageAssets/CompanyLogo.svg';
-import poweredByLogo from '../ImageAssets/PoweredByIcon.svg';
-import fbLogo from '../ImageAssets/fbLogo.svg';
-import instaLogo from '../ImageAssets/InstagramIcon.svg';
-import linkedinLogo from '../ImageAssets/LinkedInIcon.svg';
-import houseLogo from '../ImageAssets/House.svg';
-import calendarLogo from '../ImageAssets/Calendar.svg';
-import rocketLogo from '../ImageAssets/Rocket.svg';
+import companyLogo from '/CompanyLogo.svg';
+import poweredByLogo from '/PoweredByIcon.svg';
+import fbLogo from '/fbLogo.svg';
+import instaLogo from '/InstagramIcon.svg';
+import linkedinLogo from '/LinkedInIcon.svg';
 import { VscThreeBars } from "react-icons/vsc";
 import FeatureItem from './Components/FeatureItem.tsx';
 import SSOSignUp from './Views/SSOSignUp.tsx';
